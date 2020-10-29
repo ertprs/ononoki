@@ -32,7 +32,7 @@ module.exports = options = (headless, start) => {
     const options = {
         headless: headless,
         qrRefreshS: 10,
-        qrTimeout: 10,
+        qrTimeout: 99,
         authTimeout: 0,
         autoRefresh: true,
         restartOnCrash: start,
